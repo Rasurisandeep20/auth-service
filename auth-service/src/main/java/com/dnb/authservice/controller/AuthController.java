@@ -37,7 +37,7 @@ import com.dnb.authservice.service.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/authenticate")
+@RequestMapping("/api/authenticate")
 @RequiredArgsConstructor
 public class AuthController {
 
